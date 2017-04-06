@@ -1,8 +1,23 @@
+
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import CommentBox from './script/CommentBox';
+// import {CommentList, CommentBox, CommentForm} from './script/CommentList';
+// import CommentList from './script/CommentList';
+// import CommentForm from './script/CommentForm';
 
 class App extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            data: [
+                {id: 1, author: "Pete Hunt", text: "This is one comment======"},
+                {id: 2, author: "Jordan Walke", text: "This is *another* comment"}
+            ],
+        }
+    }
+
   render() {
     return (
       <div className="App">
@@ -13,6 +28,7 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
+          <CommentBox data={this.state.data}/>
       </div>
     );
   }
