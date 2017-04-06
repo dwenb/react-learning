@@ -1,0 +1,6 @@
+.comment {
+  background-color: antiquewhite;
+}
+.comment .commentAuthor {
+  color: red;
+}

@@ -1,6 +1,8 @@
 
 import React, { Component } from 'react';
 import Remarkable from 'remarkable';
+import '../less/comment.css';
+
 export default class Comment extends Component{
     constructor(props){
         super(props);
