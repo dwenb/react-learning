@@ -28,6 +28,7 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
+          {/*<CommentBox url="/api/comments"  pollInterval={2000}/>*/}
           <CommentBox data={this.state.data}/>
       </div>
     );
