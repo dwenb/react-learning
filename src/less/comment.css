@@ -4,3 +4,34 @@
 .comment .commentAuthor {
   color: red;
 }
+.commentBox {
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.commentForm {
+  DISPLAY: flex;
+  background-color: aqua;
+  justify-content: space-around;
+}
+#boxContainer {
+  margin: 5px;
+  border: 1px solid #333;
+}
+#boxContainer img {
+  float: left;
+  width: 300px;
+}
+#boxTest {
+  height: 300px;
+  background-color: chartreuse;
+}
+#boxTest .left {
+  float: left;
+  width: 50%;
+  height: 300px;
+  background-color: bisque;
+}
+#boxTest .right {
+  height: 300px;
+  background-color: white;
+}

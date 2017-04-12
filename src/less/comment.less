@@ -1,6 +1,50 @@
-.comment{
+.comment {
+  //display: flex;
+
   background-color: antiquewhite;
-  .commentAuthor{
+  .commentAuthor {
     color: red;
+  }
+}
+
+.commentBox {
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.commentForm {
+  DISPLAY: flex;
+  background-color: aqua;
+  justify-content: space-around;
+}
+
+#boxContainer {
+  //height: 600px;
+  //width: 800px;
+  margin: 5px;
+  border: 1px solid #333;
+
+  img {
+    float: left;
+    //margin-top: 50px;
+    width: 300px;
+    //resize: both;
+    //border: 1px solid #333333;
+  }
+}
+
+#boxTest {
+  height: 300px;
+  background-color: chartreuse;
+  .left {
+    float: left;
+    width: 50%;
+    height: 300px;
+    background-color: bisque;
+  }
+  .right {
+    height: 300px;
+    //flex: 1;
+    background-color: white;
   }
 }

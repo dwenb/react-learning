@@ -12,7 +12,7 @@ class App extends Component {
         super(props);
         this.state = {
             data: [
-                {id: 1, author: "Pete Hunt", text: "This is one comment======"},
+                {id: 1, author: "Pete Hunt", text: "This is one comment===================继续缩小试试看看======================缩小后可以换行哦 "},
                 {id: 2, author: "Jordan Walke", text: "This is *another* comment"}
             ],
         }
